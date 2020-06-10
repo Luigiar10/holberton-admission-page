@@ -1,0 +1,58 @@
+body{
+	background: #FAFAFA;
+	display: flex;
+	flex-direction: column;
+	color: #000000;
+}
+
+header{
+	align-items: center;
+}
+
+.barra-navegacion{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.barra-navegacion img{
+	width: 60%;
+}
+
+.barra-navegacion ul li a{
+	font-size: 20px;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+}
+
+article{
+	flex: 2;
+	overflow-y: auto;
+}
+
+article img{
+	width: 50%;
+}
+
+.referencia p{
+	font-size: 10px;
+}
+
+article p span{
+	font-weight: bold;
+}
+
+aside{
+	flex: 1;
+	overflow-y: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  iframe{
+  	width: 100%;
+  }
+}
